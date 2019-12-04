@@ -1,0 +1,101 @@
+body {
+  color: black;
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 16px; }
+  body header {
+    padding-top: 1rem;
+    padding-bottom: 3rem; }
+  body a {
+    color: black; }
+  body a:hover {
+    color: black; }
+  body .gallery-nav:hover {
+    background: url("../images/circle-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s ease; }
+  body .about-nav:hover {
+    background: url("../images/circle-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s ease; }
+  body .contact-nav:hover {
+    background: url("../images/circle-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s ease; }
+  body h1 {
+    font-size: 4rem; }
+  @media (max-width: 540px) {
+    body h1 {
+      font-size: 3rem; } }
+  body .nav-item {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem; }
+  @media (max-width: 540px) {
+    body .nav-item {
+      margin-left: 0;
+      margin-right: 0;
+      font-size: 1rem; } }
+  body main {
+    padding-left: 20%;
+    padding-right: 20%; }
+  @media (max-width: 992px) {
+    body main {
+      padding-left: 10%;
+      padding-right: 10%; } }
+  @media (max-width: 768px) {
+    body main {
+      text-align: center; } }
+  @media (max-width: 480px) {
+    body main {
+      padding-left: 0;
+      padding-right: 0; } }
+  body .cat {
+    width: 100%; }
+  body footer {
+    padding-top: 3rem;
+    padding-bottom: 1rem; }
+  body .copyright {
+    margin-bottom: 0;
+    padding-top: 15px; }
+  body .social-media-image {
+    width: 50px;
+    padding: 10px; }
+  @media (max-width: 575px) {
+    body .social-media {
+      text-align: center !important; }
+    body .social-media-image {
+      width: 40px;
+      padding: 8px; }
+    body .copyright {
+      text-align: center; } }
+  body .instagram-hover:hover {
+    background: url("../images/circle-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+  body .behance-hover:hover {
+    background: url("../images/circle-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+  body .facebook-hover:hover {
+    background: url("../images/circle-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+  body .twitter-hover:hover {
+    background: url("../images/circle-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+  body .tumblr-hover:hover {
+    background: url("../images/circle-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }

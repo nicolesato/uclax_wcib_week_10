@@ -1,0 +1,16 @@
+body {
+  font-family: 'Sulphur Point', sans-serif;
+  background: url("../images/swirl.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+  body h1 {
+    padding-top: 1rem;
+    font-size: 4rem;
+    padding-bottom: 5rem; }
+  @media (max-width: 540px) {
+    body h1 {
+      font-size: 3rem; } }
+  body .flower-icon {
+    width: 200px; }
+  body a:hover {
+    cursor: url("../images/star-cursor.svg"), pointer; }

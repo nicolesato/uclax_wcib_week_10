@@ -1,0 +1,148 @@
+body {
+  color: black;
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 16px;
+
+  header {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  a {
+    color: black;
+
+  }
+
+  a:hover {
+    color: black;
+  }
+  .gallery-nav:hover {
+    background: url("../images/circle-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s ease;
+  }
+  .about-nav:hover {
+    background: url("../images/circle-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s ease;
+  }
+  .contact-nav:hover {
+    background: url("../images/circle-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s ease;
+  }
+
+
+  h1 {
+    font-size: 4rem;
+  }
+  @media (max-width: 540px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  .nav-item {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  @media (max-width: 540px) {
+    .nav-item {
+      margin-left: 0;
+      margin-right: 0;
+      font-size: 1rem;
+    }
+  }
+
+  main {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  @media (max-width: 992px) {
+    main {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+  @media (max-width: 768px) {
+    main {
+      text-align: center;
+    }
+  }
+  @media (max-width: 480px) {
+    main {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .cat {
+    width: 100%;
+  }
+
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .copyright {
+    margin-bottom: 0;
+    padding-top: 15px;
+  }
+  .social-media-image {
+    width: 50px;
+    padding: 10px;
+  }
+  @media (max-width: 575px) {
+    .social-media {
+      text-align: center !important;
+    }
+    .social-media-image {
+      width: 40px;
+      padding: 8px;
+    }
+    .copyright {
+      text-align: center;
+    }
+  }
+  .instagram-hover:hover {
+    background: url("../images/circle-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .behance-hover:hover {
+    background: url("../images/circle-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .facebook-hover:hover {
+    background: url("../images/circle-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .twitter-hover:hover {
+    background: url("../images/circle-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .tumblr-hover:hover {
+    background: url("../images/circle-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+
+
+}

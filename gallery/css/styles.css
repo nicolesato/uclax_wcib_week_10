@@ -1,0 +1,116 @@
+body {
+  color: black;
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 16px; }
+  body header {
+    padding-top: 1rem;
+    padding-bottom: 3rem; }
+  body a {
+    color: black; }
+  body a:hover {
+    color: black; }
+  body .gallery-nav:hover {
+    background: url("../images/circle-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .5s ease; }
+  body .about-nav:hover {
+    background: url("../images/circle-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .5s ease; }
+  body .contact-nav:hover {
+    background: url("../images/circle-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .5s ease; }
+  body h1 {
+    font-size: 4rem; }
+  @media (max-width: 540px) {
+    body h1 {
+      font-size: 3rem; } }
+  body .nav-item {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem; }
+  @media (max-width: 540px) {
+    body .nav-item {
+      margin-left: 0;
+      margin-right: 0;
+      font-size: 1rem; } }
+  body main img {
+    width: 100%; }
+  body .gallery-image {
+    margin-bottom: 2rem;
+    position: relative; }
+  body .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5); }
+  body .gallery-image:hover .overlay {
+    opacity: 1; }
+  body .overlay-text {
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; }
+  body .back-to-top {
+    margin-right: 20px;
+    text-align: right; }
+  body footer {
+    padding-top: 3rem;
+    padding-bottom: 1rem; }
+  body .copyright {
+    margin-bottom: 0;
+    padding-top: 15px; }
+  body .social-media-image {
+    width: 50px;
+    padding: 10px; }
+  @media (max-width: 575px) {
+    body .social-media {
+      text-align: center !important; }
+    body .social-media-image {
+      width: 40px;
+      padding: 8px; }
+    body .copyright {
+      text-align: center; } }
+  body .instagram-hover:hover {
+    background: url("../images/circle-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+  body .behance-hover:hover {
+    background: url("../images/circle-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+  body .facebook-hover:hover {
+    background: url("../images/circle-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+  body .twitter-hover:hover {
+    background: url("../images/circle-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+  body .tumblr-hover:hover {
+    background: url("../images/circle-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
